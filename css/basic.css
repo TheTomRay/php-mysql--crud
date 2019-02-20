@@ -1,0 +1,43 @@
+label, select, input{
+  width: 150px;
+  display: inline-block;
+  margin: 5px 0;
+  
+}
+th, td
+{
+  padding: 5px;
+}
+.tableCreate
+{
+  background-color: lightgrey;
+}
+.tableCreate>thead
+{
+  background-color: #5e5e5ed7; color: white;
+}
+.tableCreate>tbody>tr:nth-child(odd)
+{
+  background-color: #b3b3b3;
+}
+.tableCreate>tbody>tr:nth-child(even)
+{
+  background-color: #e4e4e4;
+}
+.buttons
+{
+  background: none; border-radius: 9px; color: red;
+}
+.hidden
+{
+  display: none;
+}
+#formulModif input, #formulModif select
+{
+  width: 300px;
+}
+.titleMofi
+{
+  font-size: 50px;
+  text-align: center;
+}
